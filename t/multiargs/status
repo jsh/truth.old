@@ -1,0 +1,8 @@
+#!/bin/bash -e
+trap 'echo $PWD/$0' ERR
+{
+  /bin/true --version --help
+  /bin/true --version --version
+  /bin/true x y
+} &> /dev/null
+

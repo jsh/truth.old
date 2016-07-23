@@ -1,0 +1,3 @@
+#!/bin/bash -e
+trap 'echo $PWD/$0' ERR
+LC_ALL=es_ES.UTF-8 /bin/true --help &> /dev/null

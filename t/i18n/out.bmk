@@ -1,0 +1,16 @@
+Modo de empleo: /bin/true [argumentos de la línea de órdenes que se descartan]
+       o bien:  /bin/true OPCIÓN
+Sale con un estado de saldia que indica éxito.
+
+      --help     muestra esta ayuda y finaliza
+      --version  informa de la versión y finaliza
+
+NOTA: su shell puede tener su propia versión de true, que usualmente
+tiene prioridad sobre la versión que se describe aquí. Por favor acuda
+a la documentación de su shell para saber los detalles sobre las
+opciones que admite.
+
+ayuda en línea sobre GNU coreutils: <http://www.gnu.org/software/coreutils/>
+Informe de errores de traducción en true a <http://translationproject.org/team/es.html>
+Full documentation at: <http://www.gnu.org/software/coreutils/true>
+or available locally via: info '(coreutils) true invocation'

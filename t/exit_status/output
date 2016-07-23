@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+trap 'echo $PWD/$0' ERR
+/bin/true >out 2>err
+diff out.bmk out &> /dev/null
+diff err.bmk err &> /dev/null
+
+rm out err # retain bad output on failure

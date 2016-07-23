@@ -1,0 +1,3 @@
+#!/bin/bash -e
+trap 'echo $PWD/$0' ERR
+/bin/true --help &> /dev/null

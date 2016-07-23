@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in *; do
+  [ -d $i ] || continue
+  cd $i
+  ./speed && ./status && ./output
+  cd ~-
+done
+

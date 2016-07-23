@@ -1,0 +1,6 @@
+#!/bin/bash -e
+trap 'echo $PWD/$0' ERR
+{
+  /bin/true X
+  /bin/true -Y
+} &> /dev/null
