@@ -5,9 +5,9 @@ These tests answer three basic questions about the suite of behaviors that defin
 
 ## Questions
 
-- Does it terminate?
-- Does it return success?
-- Is the output correct?
+1. Does it terminate?
+1. Does it return success?
+1. Is the output correct?
 
 ## Behaviors
 
