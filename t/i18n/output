@@ -3,6 +3,5 @@
 trap 'echo $PWD/$0' ERR
 LC_ALL=es_ES.UTF-8 /bin/true --help >out 2>err
 diff out.bmk out &> /dev/null
-diff err.bmk err &> /dev/null
-
+[[ ! -s err ]]
 rm out err # retain bad output on failure
