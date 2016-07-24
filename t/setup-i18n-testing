@@ -1,0 +1,4 @@
+#!/bin/bash -e
+# For the I18N tests to run correctly, you need LC_ALL=es_ES.UTF-8 to work
+
+sudo apt-get install language-pack-es
